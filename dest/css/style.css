@@ -170,7 +170,9 @@ header {
                 backface-visibility: hidden; }
         header.big .carousel figure.chosen {
           -webkit-animation: neon 1.5s ease-in-out infinite alternate;
-                  animation: neon 1.5s ease-in-out infinite alternate; } }
+                  animation: neon 1.5s ease-in-out infinite alternate; }
+        header.big .carousel figure:aqzhover {
+          cursor: pointer; } }
 
 #display {
   display: none;

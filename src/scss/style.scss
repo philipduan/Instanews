@@ -106,7 +106,12 @@ $desktop-width:1000px;
                    0 0 50px #228DFF, 
                    0 0 75px #228DFF;
     }
-  }
+}
+
+@keyframes glowing{
+    from{ filter : drop-shadow(0px 0px 50px rgba(255, 0, 0, 1))}
+    to{ filter : drop-shadow(0px 0px 50px rgba(24, 141, 255, 1))}
+}
 
 body{
     background: black;
@@ -117,10 +122,7 @@ body{
 
 }
 
-@keyframes glowing{
-    from{ filter : drop-shadow(0px 0px 50px rgba(255, 0, 0, 1))}
-    to{ filter : drop-shadow(0px 0px 50px rgba(24, 141, 255, 1))}
-}
+
 
 header{
     align-items: center;
@@ -219,6 +221,10 @@ header{
 
                   &.chosen{
                     animation: neon 1.5s ease-in-out infinite alternate;
+                  }
+
+                  &:aqzhover{
+                      cursor: pointer;
                   }
               }
               
