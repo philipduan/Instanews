@@ -59,13 +59,6 @@
   to {
     text-shadow: 0 0 5px  #fff,  0 0 10px #fff,  0 0 15px #fff,  0 0 20px #228DFF,  0 0 35px #228DFF,  0 0 40px #228DFF,  0 0 50px #228DFF,  0 0 75px #228DFF; } }
 
-body {
-  background: black;
-  color: #ffffff;
-  font-family: open_sanslight;
-  font-size: 16px;
-  position: relative; }
-
 @-webkit-keyframes glowing {
   from {
     -webkit-filter: drop-shadow(0px 0px 50px red);
@@ -81,6 +74,14 @@ body {
   to {
     -webkit-filter: drop-shadow(0px 0px 50px #188dff);
             filter: drop-shadow(0px 0px 50px #188dff); } }
+
+body {
+  background: black;
+  color: #ffffff;
+  font-family: open_sanslight;
+  font-size: 16px;
+  height: 100vh;
+  position: relative; }
 
 header {
   -webkit-box-align: center;

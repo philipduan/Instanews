@@ -14,21 +14,12 @@ var sass = require('gulp-sass'),
 var prettyError = require('gulp-prettyerror');
 
 gulp.task('js', function () {
-    // place code for your default task here
     return gulp.src('./src/js/*.js')
         .pipe(concat('script.js'))
-        .pipe(uglify()) // Call the uglify function on these files
-        .pipe(rename({ extname: '.min.js' })) // Rename the uglified file
+        .pipe(uglify()) 
+        .pipe(rename({ extname: '.min.js' }))
         .pipe(gulp.dest('dest/js'))
         .pipe(browserSync.reload({stream:true}));
-
-});
-
-gulp.task('css', function () {
-    // place code for your default task here
-    return gulp.src('./dest/css/*.min.css')
-        .pipe(concat('styleFinal.min.css'))
-        .pipe(gulp.dest('dest/css'));
 
 });
 
