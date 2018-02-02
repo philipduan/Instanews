@@ -1,19 +1,27 @@
-# Instanews
+![Alt text](/instanews.png)
+# Project 2 - New York Times API App - Instanews
 
-Instanews Project - RED ACADEMY
+http://www.philipdu.com/Instanews/
 
-Project Summary
+## Summary
 
-This is the second project completed as a part of RED ACADEMY's front-end web developer program. Our goal is to adequately reflect the designer's vision for the website 
-and demonstrate effective organization of the project's root directory.
+Instanews allows users to instantly retreive the top news articles from any particular selected category. 
 
-Languages and tools used:
+## Languages and Tools Used
 
-HTML SCSS (with a CSS reset styles, and media queries Mobile first approach to design & coding (Responsive Web Design) Git JQuery 
-flexboxes
+	* HTML5 
+	* CSS3 (Flexbox, media queries)
+	* SCSS (variables, @mixins, @extends)
+	* JavaScript 
+	* JQuery
+	* AJAX
+	* API's
+	* Mobile first approach to coding & design (RWD)
+	* Gulp
 
-What did I learn?
+## Learning Outcomes
 
-This project is my first opportunity to exercise how to use SCSS to complement the knowlegede of css learned during the first week at the academy.
-We also learned how to dynamically fetch story data and populate it in a webpage via the Top Stories API based a user’s selection from a <select> field and
-link each returned image to its URL on the NYT website.
+The Instanews project allowed me to learn and sharpen a multitude of newly aquired skills. The use of Gulp as a task runner for my project allowed me to: run BroswerSync, lint JavaScript files, compile SCSS files into a style.css file, minify my CSS and JavaScript files, and last but not least notify me of any errors made, with messages in my terminal. Additionally, I learned how to pull, parse, and populate content with data that was received from an external web API. Finally, the use of SCSS allowed me to keep a more logically organized style folder using partials, in addition to using @mixins, @extends, as well as simple and logical variables.
+
+
+
