@@ -1,4 +1,4 @@
-![Alt text](/instanews.png)
+![Alt text](/instanews.PNG)
 # Project 2 - New York Times API App - Instanews
 
 http://www.philipdu.com/Instanews/
