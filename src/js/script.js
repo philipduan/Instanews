@@ -1,4 +1,4 @@
-var myResult = {}; //adding some comments
+var myResult = {}; //adding some comment
 var section = [
   "A",
   "Home",
